@@ -1,0 +1,22 @@
+{
+  "name": "bo-dashboard",
+  "version": "1.0.0",
+  "description": "Workspace for BNIS dashboard project",
+  "main": "index.js",
+  "author": "BNIS Developer",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "npx lerna run start --parallel",
+    "dev": "npx lerna run dev --parallel",
+    "build": "npx lerna run build --parallel",
+    "serve": "npx lerna run serve --parallel",
+    "clean": "npx lerna clean -y && npx lerna run clean && rm -rf node_modules"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^5.5.0"
+  }
+}

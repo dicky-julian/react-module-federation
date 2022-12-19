@@ -1,0 +1,10 @@
+{
+    "host": "http://localhost",
+    "port": 7000,
+    "config": {
+        "name": "modules",
+        "filename": "moduleEntry.js",
+        "remotes": {},
+        "exposes": {}
+    }
+}

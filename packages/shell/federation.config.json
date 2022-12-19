@@ -1,0 +1,11 @@
+{
+    "host": "http://localhost",
+    "port": 7001,
+    "config": {
+        "name": "shell",
+        "remotes": {
+            "modules": "modules@http://localhost:7000/remoteEntry.js"
+        },
+        "exposes": {}
+    }
+}

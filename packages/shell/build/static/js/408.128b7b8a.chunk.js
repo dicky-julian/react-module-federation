@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkshell=self.webpackChunkshell||[]).push([[408],{408:function(e,n,t){t.r(n);t(902);var l=t(344),r=t(938),s=function(){return(0,r.jsx)("div",{children:"Shell Page"})};l.createRoot(document.getElementById("root")).render((0,r.jsx)(s,{}))}}]);
+//# sourceMappingURL=408.128b7b8a.chunk.js.map
